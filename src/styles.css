@@ -1,1 +1,245 @@
-/* You can add global styles to this file, and also import other style files */
+/* *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 100px;
+  min-width: 320px;
+}
+
+body {
+  margin: 40px;
+  background-color: #fff;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 20px;
+  display: grid;
+}
+
+.header {
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: var(--header-height);
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main {
+  background-color: lightgray;
+  border-left: gray 1.5px solid;
+  border-right: gray 1.5px solid;
+}
+
+.icon {
+  width: 3.125rem;
+  height: 3.125rem;
+  object-fit: contain;
+  margin: 0.5rem 0.7rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: white;
+  border-left: gray 1.5px solid;
+  border-right: gray 1.5px solid;
+  border-bottom: gray 1.5px solid;
+}
+
+.container_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_rigth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+  padding: 0.625rem;
+  margin: 0.625rem;
+  border-radius: 15px;
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+}
+
+.cardTitle {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 1rem;
+}
+
+.iconFire {
+  height: 5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.titleName {
+  color: black;
+  margin-left: 0.3rem;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+
+.imagePK {
+  position: relative;
+  top: 2.0rem;
+  z-index: 1000;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.cardInfo {
+  margin-bottom: 21px;
+  background-color: #212e8fd6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 1rem;
+  color: #f0f0f0;
+}
+
+.titleFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.buttomPK {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: lightgray;
+  border-radius: 7rem;
+  cursor: pointer;
+}
+
+.buttomPK:hover {
+  background-color: gray;
+  border: black 2px solid;
+  transform: scale(1.1);
+
+}
+
+.buttomImgPK:hover {
+  transform: rotateY(360deg);
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.buttomImgPK {
+  height: 5rem;
+  width: 5rem;
+}
+
+.footerButtoms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 10px 0px;
+  background-color: white;
+}
+
+.containerFooter {
+  align-items: center;
+  object-fit: scale-down;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 500px) {
+
+  .wrapper {
+    margin: 0 auto;
+  }
+
+  .header, .footer, main {
+    grid-column: 1 / -1;
+    clear: both;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .container_rigth {
+    width: 50%;
+  }
+
+  .imagePK {
+    top: 0;
+  }
+
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .titleFooter {
+    margin-right: 5rem;
+  }
+
+  .containerFooter {
+    display: flex;
+    align-items: center;
+    object-fit: scale-down;
+    justify-content: space-between;
+  }
+
+  .footerButtoms {
+    display: flex;
+  }
+}
+
+.wrapper>* {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+@supports (display: grid) {
+  .wrapper>* {
+    width: auto;
+    margin: 0;
+  }
+} */

@@ -1,0 +1,24 @@
+.icon {
+    width: 3.125rem;
+    height: 3.125rem;
+    object-fit: contain;
+    margin: 0.5rem 0.7rem;
+  }
+
+  .header {
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: var(--header-height);
+    background-color: red;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Ubuntu", sans-serif;
+  }
+  @media screen and (min-width: 500px) {
+    .header{
+       grid-column: 1 / -1;
+       clear: both;
+     }
+    }
